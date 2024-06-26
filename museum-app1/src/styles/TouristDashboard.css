@@ -1,0 +1,22 @@
+.dashboardAppBar {
+    background-color: #123456; 
+  }
+  
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbarSearch {
+    flex-grow: 1;
+    margin: 0 250px; 
+    max-width: 600px; 
+}
+
+
+.toolbarIcons {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}

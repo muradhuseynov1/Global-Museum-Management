@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="MuiBox-root css-1lmadg6"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-1mz6ms4"
+      >
+        <img
+          alt="Logo"
+          src="thesis_icon1.png"
+          style="width: 50px; height: 50px;"
+        />
+        <div
+          class="MuiBox-root css-0"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-74i0q5-MuiTypography-root"
+          >
+            Global Museum Management
+          </h6>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ffdaoj-MuiTypography-root"
+          >
+            © 2024 Global Museum Management. All rights reserved.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

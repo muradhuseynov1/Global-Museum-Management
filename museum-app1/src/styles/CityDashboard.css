@@ -1,0 +1,101 @@
+.dashboardAppBar {
+    background-color: #123456; 
+  }
+  
+.dashboardContainer {
+margin-top: 20px;
+}
+
+.dashboardTitle {
+margin-bottom: 20px;
+color: #123456; 
+}
+
+.museumGrid {
+margin-top: 20px;
+}
+
+.museumCard {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s ease-in-out;
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+  
+.cardMedia {
+height: 140px;
+background-size: cover;
+background-position: center; 
+}
+
+.museumCardContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: #fff;
+    padding: 16px; 
+    min-height: 100px !important; 
+    overflow: hidden; 
+}
+
+  
+.iconContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex; 
+    gap: 8px; 
+    visibility: hidden; 
+}
+
+.museumCard:hover .iconContainer {
+    visibility: visible; 
+}
+  
+.editIconButton, .deleteIconButton {
+    background-color: rgba(255, 255, 255, 1) !important; 
+    color: #1976d2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+    padding: 8px; 
+}
+  
+.editIconButton:hover, .deleteIconButton:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+}
+
+.museumName {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.toolbarSearch {
+    flex-grow: 1;
+    margin: 0 20px; 
+    max-width: 600px; 
+}
+  
+.toolbarIcons {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}
+  
+
+.dashboardAppBar.MuiAppBar-root {
+    background-color: #123456; 
+}
+  

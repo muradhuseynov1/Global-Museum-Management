@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.8",
+    "pdfkit": "^0.14.0",
+    "qrcode": "^1.5.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "mock-require": "^3.0.3",
+    "rewiremock": "^3.14.5",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0"
+  }
+}
