@@ -72,6 +72,9 @@ The application uses various dependencies for frontend, backend, and database ma
     npm test
     ```
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgments
 I would like to thank my supervisor, Dr. Szabó László Ferenc, and my family and friends for their support throughout this project.
 
